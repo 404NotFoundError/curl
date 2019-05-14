@@ -2,11 +2,13 @@
     "name": "adebayo/curl",
     "description": "Php request builder",
     "type": "metapackage",
+    "keywords": ["php","curl","request","package","query builder"],
     "license": "WTFPL",
     "authors": [
         {
             "name": "HOUNTONDJI Adebayo",
-            "email": "hountondjigodwill@gmail.com"
+            "email": "hountondjigodwill@gmail.com",
+            "role": "Developer"
         }
     ],
     "autoload": {
@@ -15,6 +17,6 @@
         }
     },
     "require": {
-        
+        "php": "^7.1.3"
     }
 }
