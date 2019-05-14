@@ -25,7 +25,7 @@ class Curl{
      * @param string $uri, The request uri
      * @param bool $returnTransert
      */
-    public function __construct(string $uri, bool $returnTransert = false)
+    public function __construct(string $uri, bool $returnTransert = true)
     {
         $this->request = curl_init($uri);
         curl_setopt($this->request, CURLOPT_RETURNTRANSFER, $returnTransert); 
