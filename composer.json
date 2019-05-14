@@ -4,6 +4,8 @@
     "type": "metapackage",
     "keywords": ["php","curl","request","package","query builder"],
     "license": "WTFPL",
+    "minimum-stability": "stable",
+    "homepage": "https://github.com/404NotFoundError/curl",
     "authors": [
         {
             "name": "HOUNTONDJI Adebayo",
