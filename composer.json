@@ -1,7 +1,7 @@
 {
     "name": "adebayo/curl",
     "description": "Php request builder",
-    "type": "metapackage",
+    "type": "library",
     "keywords": ["php","curl","request","package","query builder"],
     "license": "WTFPL",
     "minimum-stability": "stable",
